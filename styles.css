@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.menu .menu-logo {
+    width: 15%;
+}
+
+.menu .menu-nav .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 5px;
+}
+
+.menu .menu-nav .menu-list-item {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner .banner-imagem {
+    width: 1280px;
+    height: 720px;
+    padding: 1%;
+}
+
+.historia {
+    padding: 1%;
+    justify-content: space-evenly;
+    background-color: red;
+}
+
+.historia__resumo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.historia .historia__imagem {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.historia .historia__title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.historia .historia_descricao {
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.personagens {
+    padding: 1%;
+    justify-content: space-around;
+    background-color: green;
+}
+
+.personagens__resumo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.personagens .personagens__imagem {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.personagens .personagens__title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.personagens .personagens__descricao {
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.hogwarts {
+    padding: 1%;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+.hogwarts__resumo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hogwarts .hogwarts__imagem {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.hogwarts .hogwarts__title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.hogwarts .hogwarts__descricao {
+    font-size: 15px;
+    font-weight: 100px;
+}
+
+.feiticos {
+    padding: 1%;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.feiticos__resumo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.feiticos .feiticos__imagem {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.feiticos .feiticos__title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.feiticos .feiticos__descricao {
+    font-size: 15px;
+    font-weight: 100px;
+}
+
